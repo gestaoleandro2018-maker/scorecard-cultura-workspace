@@ -1,0 +1,73 @@
+{
+ "avaliacao": "EXEMPLO FICTÍCIO | Entrevista TA | Dev Backend Sênior",
+ "candidato": "Pessoa Exemplo (fictícia)",
+ "vaga": "Dev Backend Java Sênior",
+ "senioridade_alvo": "Sênior",
+ "trilha": "Analista (IC)",
+ "ta": "TA Exemplo",
+ "contexto_vinculo": "A – empresa de produto (fictícia).",
+ "senioridade_percebida": "Sênior — exemplo — alinhada ao alvo.",
+ "itens": [
+  {
+   "nome": "Foco em Resultados",
+   "grupo": "pilar",
+   "nota": 4,
+   "rotulo": "Muito Evidente",
+   "nivel": "Sênior",
+   "iniciativa": "Iniciativa própria",
+   "recorrencia": "Recorrente",
+   "escopo": "time",
+   "perguntas": [
+    "Entrega importante com prazo desafiador"
+   ],
+   "star": {
+    "situacao": "Migração regulatória de uma API em seis semanas.",
+    "tarefa": "Responsável pelo desenho da migração.",
+    "acao": "Dividiu em três ondas, rodou versões em paralelo e negociou escopo com o PO.",
+    "resultado": "Entrega em cinco semanas e meia, sem divergências no primeiro mês."
+   },
+   "analise": "Evidencia foco em resultado com trade-off consciente e resultado medido, acima do esperado para Sênior.",
+   "trechos": [
+    {
+     "texto": "exemplo de trecho",
+     "tempo": "3:25"
+    }
+   ]
+  },
+  {
+   "nome": "Orientação para o Cliente",
+   "grupo": "pilar",
+   "nota": null,
+   "rotulo": "Não avaliado",
+   "perguntas": [],
+   "analise": "Pilar não explorado nesta entrevista; recomenda-se investigar na próxima etapa.",
+   "pergunta_sugerida": "Conte uma situação em que você entendeu a necessidade real do cliente antes de executar o pedido.",
+   "trechos": []
+  }
+ ],
+ "resumo": {
+  "media_pilares": 4.0,
+  "media_comportamentos": null,
+  "media_final": 4.0,
+  "conta": "4 ÷ 1 = 4,0 – Muito Evidente",
+  "pontos_fortes": [
+   "Exemplo"
+  ],
+  "pontos_atencao": [
+   "Exemplo"
+  ],
+  "aprofundar": [
+   "Exemplo"
+  ]
+ },
+ "temas": [
+  {
+   "tema": "Próximos passos combinados",
+   "texto": "Exemplo fictício."
+  }
+ ],
+ "parecer": {
+  "status": "INCONCLUSIVO",
+  "motivo": "Exemplo fictício para conferir o visual."
+ }
+}
