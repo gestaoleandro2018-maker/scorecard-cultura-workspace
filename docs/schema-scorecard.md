@@ -10,7 +10,7 @@ O agente grava `scorecard.json` com este formato. O script `tools/montar_html.py
   "senioridade_alvo": "Júnior | Pleno | Sênior | Especialista | Coordenação | Gerência+",
   "trilha": "Analista (IC) | Liderança",
   "ta": "nome da TA",
-  "contexto_vinculo": "A/B/C + 1 linha",
+  "contexto_vinculo": "descrição por extenso, sem letras (ex.: Consultoria alocada no cliente — 1 linha)",
   "senioridade_percebida": "nível — justificativa — abaixo/alinhada/acima do alvo",
   "divergencia": "opcional",
   "itens": [
