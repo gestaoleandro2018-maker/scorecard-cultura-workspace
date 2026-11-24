@@ -3,6 +3,7 @@
 
 Uso: python3 tools/montar_html.py scorecard.json scorecard.html
 """
+import html as htmllib
 import json
 import sys
 from pathlib import Path
@@ -36,7 +37,12 @@ def main():
     html = TEMPLATE.read_text(encoding="utf-8")
     if MARCADOR not in html:
         raise SystemExit("Template sem o marcador de dados")
-    Path(sys.argv[2]).write_text(html.replace(MARCADOR, bruto, 1), encoding="utf-8")
+    html = html.replace(MARCADOR, bruto, 1)
+    # Título da aba = nome sugerido ao salvar em PDF
+    titulo = f"Scorecard Competencias e Cultura - {dados['candidato']}"
+    html = html.replace("<title>Scorecard de Cultura BRQ</title>",
+                        f"<title>{htmllib.escape(titulo)}</title>", 1)
+    Path(sys.argv[2]).write_text(html, encoding="utf-8")
     print(f"OK: {sys.argv[2]} gerado para {dados['candidato']}")
 
 
